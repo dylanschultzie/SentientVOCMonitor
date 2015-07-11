@@ -1,0 +1,7 @@
+USE VOCMS;
+
+DROP TABLE VOCReading
+DROP TABLE AlertSubscriber_MonitorList
+DROP TABLE Monitor
+DROP TABLE VOC
+DROP TABLE AlertSubscriber

@@ -1,0 +1,6 @@
+CREATE TRIGGER Sensor_INSERT_UPDATE
+	ON Sensor
+	AFTER INSERT, UPDATE
+AS
+	UPDATE SENSOR
+	SET SensorName = UPPER(LEFT(SensorName,1)) + RIGHT( SensorName, LEN( SensorName ) - 1);

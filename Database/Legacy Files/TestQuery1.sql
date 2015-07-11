@@ -1,0 +1,2 @@
+SELECT SensorName
+FROM Sensor; 

@@ -1,0 +1,16 @@
+USE VOCMS;
+
+DELETE FROM AlertSubscriber_MonitorList
+GO
+
+DELETE FROM VOCReading
+GO
+
+DELETE FROM AlertSubscriber
+GO
+
+DELETE FROM Monitor
+GO
+
+DELETE FROM VOC
+GO
